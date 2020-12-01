@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Etch-a-Sketch</title>
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="sketch.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div id="flex-container">
+			<div id="title">Etch-a-Sketch</div>
+			<div class="tool-btns">
+				<button value="pink" class="buttonColor" id="pink-btn">Pink</button>
+				<button value="black" class="buttonColor" id="black-btn">Black</button>
+				<button value="rainbow" class="buttonColor" id="rainbow-btn">Rainbow</button>
+				<button value="white" class="buttonColor" id="eraser-btn">Eraser</button>
+				<button id="clear-btn">Clear</button>
+			</div>
+			
+			<div id="grid">
+			</div>
+			
+			<div class="slidecontainer">
+				  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+				  <center><p>Value: <span id="demo"></span></p></center>
+			</div>
+		</div>
+	</body>
+</html>
